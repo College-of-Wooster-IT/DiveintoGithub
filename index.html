@@ -61,12 +61,8 @@
             color: #ffffff;
         }
         
-        i {
-            padding-bottom: 3%;
-        }
-        
         .central {
-            padding-left: 15%;
+      		padding-left: 15%;
             padding-right: 15%;
         }
     </style>
@@ -107,35 +103,25 @@
 
 
             </div>
-            <div class="slide" id="slide4">
-                <h1>Why Use Github?</h1>
+                        <div class="slide" id="slide4">
+                       <h1>Github in Action!</h1>
+                       <a href="http://maker.uvic.ca/github/"><img class="central" width="500" src="./images/uva.png" /></a>
+                        <a href="http://latextrack.sourceforge.net/github-tutorial/github-tutorial.pdf"><img class="central" width="500" src="./images/latex.png" /></a>
+                         <img class="central" width="500" src="./images/uva.png" />
+                         <div class="central">Click on a image to view the site.</div>
+                        </div>
 
-                <h2><i class="centerTxt"><i class="fa fa-users"></i> 
- Students</i><ul><li>Git is an industry standard tool used by Software Engineers, Digital Librarians and Bioinformatics researchers.</li><li>Github allows you to easily showcase your work with employers. </li><li>Github is a powerful tool for creating organizing and sharing large projects (like I.S!).</li></ul></h2>
+        
+        </div>
+        <div class="section" id="section2">
+            <div class="intro">
+                <h1>Getting Started!</h1>
+                <h2><ul><li>Go to <code><a href="http://www.github.com">http://www.github.com</a></code> and <b>sign up for a new account using the form on the homepage</b></li></h2>
+                <img width="500" src="./images/1.png" />
             </div>
-            <div class="slide" id="slide5">
-                <h1>Why Use Github?</h1>
-                <h2><i class="centerTxt"><i class="fa fa-graduation-cap"></i> Faculty</i><ul><li>Easily create and share class assignments, examples and other data with students.</li><li>Take advantage of <a href="http://chronicle.com/blogs/profhacker/how-to-fork-a-syllabus-on-github/39447">existing syllabi</a> and other meida on Github</li><li>Use <a href="http://ipython.org/notebook.html">IPython notebooks</a> for activities, assignments and more!</li><li>Easily collaborate with faculty at other colleges and universities on lecture notes and other class materials.</li> </ul></h2></div>
-            <div class="slide" id="slide6">
-                <h1>Github in Action!</h1>
-                <a href="http://maker.uvic.ca/github/"><img class="central" width="500" src="./images/uva.png" /></a>
-                <a href="http://latextrack.sourceforge.net/github-tutorial/github-tutorial.pdf"><img class="central" width="500" src="./images/latex.png" /></a>
-                <img class="central" width="500" src="./images/uva.png" />
-                <div class="central">Click on a image to view the site.</div>
-            </div>
-
-
         </div>
     </div>
-    <div class="section" id="section2">
-        <div class="intro">
-            <h1>Getting Started!</h1>
-            <h2><ul><li>Go to <code><a href="http://www.github.com">http://www.github.com</a></code> and <b>sign up for a new account using the form on the homepage</b></li></h2>
-            <img width="500" src="./images/1.png" />
-        </div>
-    </div>
-    </div>
-
+   
     </div>
     <script type="text/javascript" src="./bower_components/fullpage.js/jquery.fullPage.js"></script>
     <script type="text/javascript">
@@ -153,12 +139,12 @@
         });
 
         $("img").hover(function() {
-            var target = $(event.target);
+        	  var target = $( event.target );
             target.animate({
                 width: '1000px'
             });
         }, function() {
-            var target = $(event.target);
+        	 var target = $( event.target );
             target.animate({
                 width: '500px'
             });
