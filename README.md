@@ -1,2 +1,3 @@
 # DiveintoGithub
-Interactive Presentation for Faculty and Students on how to use Github and version control software in general
+Interactive HTML Presentation to introduce Github and version control software to Wooster Students and Faculty.
+Uses fullscreen.js and bootstrap
